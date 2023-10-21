@@ -1,2 +1,15 @@
 Readme:
-Template of QA Java fremwork. 
+Template of QA Java framework.
+
+Stack:
+Maven
+Junit5
+Spring (DI framework + spring profiles)
+Cucumber (BDD)
+Selenide (easier to use than Selenium alone)
+
+Using spring profiles allow to have 2 different implementation of ie. Authorization class,
+but using only one correspondent symbol in code.
+Spring itself will choose correct implementation based on active profile.
+
+
