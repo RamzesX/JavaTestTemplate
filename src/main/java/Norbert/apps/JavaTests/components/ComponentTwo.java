@@ -1,4 +1,4 @@
-package Norbert.apps.JavaTests.Components;
+package Norbert.apps.JavaTests.components;
 
 import org.springframework.stereotype.Component;
 

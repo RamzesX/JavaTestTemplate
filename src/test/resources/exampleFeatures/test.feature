@@ -8,3 +8,6 @@ Feature: the version can be retrieved
     When the client calls
     Then the client receives status code of
     And the client receives server version
+
+  Scenario: client open Selenide page
+    When the client open selenide page
